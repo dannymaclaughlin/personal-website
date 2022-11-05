@@ -19,9 +19,9 @@
     display: flex;
     align-items: center;
     font-size: 1em;
-} */
+}
 
-/* .nav ol {
+.nav ol {
     display: flex;
     list-style: none;
 } */
@@ -90,16 +90,16 @@ body {
 footer {
     text-decoration: none;
     font-size: 1em;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: flex-end; */
 
-    /* position: absolute;
+    position: absolute;
     bottom: 0;
     width: 97%;
     height: 4rem;
     display: flex;
-    justify-content: center; */
+    justify-content: center;
 }
 
 .footer ol {
