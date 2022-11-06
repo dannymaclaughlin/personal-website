@@ -75,10 +75,11 @@ body {
 
 .lower-center {
     position: absolute;
-    top: 55%;
+    top: 52%;
     left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
+    margin-left: -80px;
+    /* margin-right: -50%; */
+    /* transform: translate(-50%, -50%); */
     line-height: 18px;
     text-align: center;
 }
@@ -96,7 +97,9 @@ footer {
 
     position: absolute;
     bottom: 0;
-    width: 97%;
+    /* width: 100%; */
+    left: 50%;
+    margin-left: -135px;
     height: 4rem;
     display: flex;
     justify-content: center;
@@ -104,7 +107,7 @@ footer {
 
 .footer ol {
     list-style: none;
-    width: 100%;
+    /* width: 100%; */
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -147,6 +150,5 @@ footer {
     from{border-right-color: rgb(255, 255, 255);}
     to{border-right-color: transparent;}
   }
-
 
 
